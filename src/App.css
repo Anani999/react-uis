@@ -100,4 +100,18 @@ nav ul{
   
   list-style: none;
 }
+
+.right-her img{
+  align-items: center;
+}
+
+}
+
+@media screen and (min-width:600px) and (max-width:1123px) {
+  .left-her h1{
+    font-weight: 750;
+    font-size: 70px;
+    line-height: 75px;
+  }
+  
 }
