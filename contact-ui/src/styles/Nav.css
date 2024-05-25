@@ -1,0 +1,31 @@
+
+nav img{
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.nav-links ul{
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    height: calc(100vh-72px);
+    flex-direction: column;
+    justify-content: end;
+}

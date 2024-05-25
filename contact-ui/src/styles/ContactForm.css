@@ -1,0 +1,75 @@
+.form-div{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content:space-between;
+    width: 900px;
+}
+
+.left-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+
+}
+
+
+form{
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:70%;
+}
+
+input{
+    font-size: large;
+    padding: 10px 40px;
+    width: 250px;
+    margin: auto;
+
+}
+
+textarea{
+    width: 327px;
+    margin:  auto;
+    height: 90px;
+}
+
+form button{
+}
+
+.form-div img{
+    width: 400px;
+    margin-left: -100px;
+}
+
+.form-div button{
+    cursor: pointer;
+    all: unset;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+@media screen and (max-width:800){
+    .form-div{
+        display: flex;
+        flex-direction: column[];
+    }
+}   
+
+button{
+    cursor: pointer;
+}
+
+.submit{
+    cursor: pointer;
+}
