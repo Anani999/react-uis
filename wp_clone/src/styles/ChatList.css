@@ -1,0 +1,144 @@
+.chat-div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 665px;
+    height: 100vh;
+    border-right: 1px solid rgb(47, 70, 62);
+}
+
+.nav-1{
+    background-color: rgb(30, 48, 50);
+}
+
+.nav-1 nav{
+    margin:10px 15px;
+    background-color: rgb(30, 48, 50);
+    display: flex;
+    justify-content:space-between;
+}
+
+.nav-1 nav ul{
+    background-color: rgb(30, 48, 50);
+
+    margin-right:20px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+    list-style: none;
+}
+
+nav ul li{
+    cursor: pointer;
+}
+
+.nav-1 nav img{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.menu-div{
+    padding: 10px 20px;
+    background-color: rgb(27, 27, 42);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.search{
+    height: 34px;
+    border-radius: 10px;
+    background-color: rgb(30, 48, 50);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search input{
+    background: transparent;
+    font-size: 14px;
+    width: auto;
+    color: white;
+    border: none;
+    width: 80%;
+}
+
+
+.categories{
+    margin-top:15px;
+    display: flex;
+    gap: 15px;
+}
+
+.categories button{
+    all: unset;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(30, 48, 50);
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-size: small;
+}
+
+.categories button:hover{
+    background-color: rgb(34, 55, 58);
+}
+
+
+
+.item{
+
+    border-top-color: rgb(53, 80, 62);
+    background-color: rgb(27, 27, 42);
+    height:70px;
+    cursor:pointer;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    gap:15px;
+    color: rgb(255, 255, 255);
+}
+
+.item:hover{
+    background-color: rgb(30, 48, 50);
+
+}
+
+.item  img{
+    width: 45px;
+    height: 45px;
+    border: 2px solid rgb(0, 255, 213);
+    border-radius: 50px;
+}
+
+.item-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.item-body h2{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.item-body p{
+    font-size: 13px;
+    color: rgb(191, 191, 191);
+}
+
+.scrollable-div::-webkit-scrollbar {
+    width: 20px; /* Adjust the width as needed */
+}
+
+.list-div{
+    overflow: auto;
+    height: 689px;
+    
+}
+
+.list-div::-webkit-scrollbar{
+    width: 20px;
+}

@@ -1,0 +1,82 @@
+.chats-div{
+    height:100vh;
+    width:-moz-available;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.nav{
+    padding: 8px 15px;
+    color: white;
+    background-color: rgb(30, 48, 50);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-info{
+    display: flex;
+    gap: 20px;
+}
+
+.profile-info-2{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.profile-info h1{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.profile-info p{
+    margin-top: 4px;
+    font-size: 13px;
+    color: rgb(204, 204, 204);
+}
+
+.profile-info img{
+    height: 40px;
+    cursor: pointer;
+    width: 40px;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 255, 115);
+}
+.buttons{
+    margin-right: 10px;
+    display: flex;
+    gap: 37px;
+}
+
+.message-options-div{
+    border-top: 1px solid rgb(51, 81, 77);
+    padding: 8px 25px;
+    bottom: 0;
+    height: 40px;
+    color: rgb(167, 167, 167);
+    background-color: rgb(30, 48, 50);
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    position: absolute; /* Ensure this is set */
+    bottom: 0;
+    width: -moz-available;
+}
+
+.message-options-div input{
+    padding:9px 15px;
+    background-color: rgb(46, 73, 77);
+    width: 90%;
+    color: rgb(207, 207, 207);
+    border-radius: 7px;
+    border: none;
+    font-size: 14px;
+}
+
+.chat-container-div{
+    flex: 1;
+    background-color: rgb(27, 27, 42);
+}
