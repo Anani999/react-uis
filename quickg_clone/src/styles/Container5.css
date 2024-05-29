@@ -1,0 +1,61 @@
+.container5{
+    background-color: rgb(186, 0, 87);
+    padding: 20px;
+    color: white;
+}
+
+.sub-div5{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.d1{
+    max-width: 800px;
+}
+
+.sub-div5 h1{
+    font-size: 50px;
+}
+
+.sub-div5 p{
+    line-height: 40px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.cont5-review{
+    display: flex;
+    text-align: center;
+    gap: 30px;
+}
+
+.cont5-review .review{
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.14);    width: 300px;
+    border: 1px solid white;
+    padding: 15px;
+}
+
+.review p{
+    font-size: 14px;
+}
+
+.review .name{
+    font-size:18px;
+}
+
+.review img{
+    height: 84px;
+    width: 84px;
+    border-radius: 50%;
+}
+
+.review a{
+    color: white;
+    font-size: 13px;
+}
+

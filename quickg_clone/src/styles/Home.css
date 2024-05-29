@@ -1,0 +1,45 @@
+.home-main-div{
+    display: flex;
+    justify-content: center;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+    margin: 20px auto;
+    max-width: 1350px;
+    align-items: center;
+    gap: 60px;
+    padding: auto;
+    color: white;
+}
+
+.home-main-div .img-div img{
+    width: 390px;
+}
+
+.home-main-div .text-div2{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    gap: 40px;
+}
+
+.home-main-div .text-div img{
+    margin-top: 20px;
+    width: 170px;
+}
+
+.home-main-div .text-div h1{
+    font-size: 50px;
+    font-weight: 550;
+}
+
+.text-div button{
+    all: unset;
+    background-color: white;
+    color: black;
+    font-weight: 300;
+    font-size: 12px;
+    padding: 15px 23px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    padding:25px 10px;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    font-size: 18px;
+}
+
+.nav-left-div img{
+    width:170px;
+    height: 50px;
+
+}
+
+.nav-left-div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+.nav-left-div .options{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-right-div{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
