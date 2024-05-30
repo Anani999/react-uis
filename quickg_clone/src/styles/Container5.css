@@ -9,7 +9,7 @@
     flex-direction: column;
     gap: 30px;
     align-items: center;
-    max-width: 1000px;
+    max-width: 1400px;
     margin: 20px auto;
 }
 
@@ -30,6 +30,8 @@
 .cont5-review{
     display: flex;
     text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
@@ -59,3 +61,11 @@
     font-size: 13px;
 }
 
+@media (max-width:600px){
+
+.sub-div5 h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+}

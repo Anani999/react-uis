@@ -1,33 +1,91 @@
 nav{
     display: flex;
-    padding:25px 10px;
+    padding: 2% 0;
     justify-content: space-between;
     color: rgb(255, 255, 255);
+    max-width: 90%;
+    margin: 0 auto;
     align-items: center;
-    font-size: 18px;
 }
 
 .nav-left-div img{
-    width:170px;
-    height: 50px;
+    width: 80%;
 
 }
 
 .nav-left-div{
     display: flex;
     align-items: center;
-    gap: 30px;
-    justify-content: space-evenly;
+    gap: 0;
+    font-size: 1rem;
 }
 
 .nav-left-div .options{
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap:10%;
 }
 
 .nav-right-div{
+    width: 20%;
     display: flex;
-    gap: 20px;
+    gap: 10%;
     list-style: none;
+}
+
+.popMenu{
+    display: none;
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    color:black;
+    font-size: 1rem;
+    width: 70%;
+    font-size: 20px;
+}
+
+.into{
+    position: absolute;
+    right: 10px;
+    color: white;
+    cursor: pointer;
+    top: 10px;
+}
+
+.into:hover{
+    height: 25px;
+}
+
+.popMenu li{
+    background-color: black;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.popMenu li:hover{
+    background-color: rgb(39, 39, 39);
+}
+
+.hamburger{
+    display: none;
+}
+
+
+@media (max-width:600px) {
+        
+    .nav-left-div .options{
+        display: none;
+    }
+
+    .nav-right-div{
+        display: none;
+    }
+
+
+    .hamburger{
+        display: block;
+    }
+
 }

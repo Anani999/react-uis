@@ -6,7 +6,26 @@
 
 .init-container{
   background:linear-gradient(to bottom right ,rgb(188, 54, 101) 6.89%, rgb(39, 39, 112) 111.46%);
-  min-height: 51rem;
+padding-bottom: 5%;
 clip-path: ellipse(100% 87.00% at 50% 0%);
   position: relative;
+}
+
+html{
+  font-size: 16px;
+}
+
+@media (max-width:600px){
+  html{
+    font-size: 16px;
+  }
+  .img-div{
+    width: 100%;
+}
+
+
+.init-container{
+  background:linear-gradient(to bottom right ,rgb(188, 54, 101) 6.89%, rgb(39, 39, 112) 111.46%);
+  clip-path: none;
+}
 }

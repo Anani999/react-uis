@@ -1,7 +1,7 @@
 .plan-div{
     display: flex;
     flex-direction: column;
-    max-width: 800px;
+    max-width: 1500px;
     margin: 20px auto;
     gap: 20px;
     padding: 20px;
@@ -37,6 +37,8 @@
 .plans-3{
     display: flex;
     gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .plan-item{
@@ -58,7 +60,7 @@
     border-radius: 10px;
     justify-content: center;
     align-items: center;
-    background-color: rgb(216, 0, 36);
+    background-color: rgb(202, 0, 84);
     color: white;
 }
 
@@ -100,7 +102,7 @@
     color: white;
     font-size: 15px;
     font-weight: bold;
-    background-color: rgb(216, 0, 36);
+    background-color: rgb(216, 0, 108);
     border-radius: 20px;
 }
 

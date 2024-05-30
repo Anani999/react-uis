@@ -16,12 +16,13 @@
 .footer-header .footer-links {
     display: flex;
     align-items: start;
+    flex-wrap: wrap;
     list-style: none;
-    gap:30px;
+    gap: 9%;
 }
 
 .footer-links li{
-    color: rgb(206, 0, 34);
+    color: rgb(223, 0, 126);
     font-size: 22px;
     cursor: pointer;
 }
@@ -50,5 +51,14 @@
     text-align: center;
     font-size: x-small;
 
+}
+
+
+@media (max-width:600px){
+
+.footer-links li{
+    margin: 10px 0;
+    font-size: 1rem;
+}
 }
 
