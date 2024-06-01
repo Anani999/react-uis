@@ -1,0 +1,154 @@
+
+.nav{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 10px;
+}
+
+.left-nav,.right-nav{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 15px;
+}
+
+.right-nav .hamburger{
+    display: none;
+    height: 30px;
+    cursor: pointer;
+}
+
+.left-nav img{
+    height: 2.1rem;
+    cursor: pointer;
+}
+
+.right-nav button{
+    all: unset;
+    background-color: white;
+    padding: 0.6rem 0.8rem;
+    color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.right-nav button:hover{
+    color: rgb(0, 0, 255);
+}
+
+/* Midle nav */
+.midle-nav{
+    font-weight: bold;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 50%;
+}
+.midle-nav li{
+    cursor: pointer;
+}
+.midle-nav li:hover{
+
+    text-decoration: underline;
+}
+/* Ab nav styles  */
+
+.ab-nav{
+    width: 80%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius:25px;
+    border-bottom-left-radius:25px;
+    transition: opacity 0.5 ease-in-out;
+
+}
+
+.ab-nav .nav-header{
+    color: black;
+    display: flex;
+    margin: 20px 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ab-nav hr{
+    width: 70%;
+    margin: 0 auto;
+    opacity: 0.2;
+}
+.nav-header img{
+    filter: grayscale(100%) brightness(0%);
+    width: 124px;
+}
+
+.into{
+    cursor: pointer;
+}
+
+.list{
+    margin: 8px 30px;
+}
+
+.ab-nav li{
+    list-style: none;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ab-nav li:hover{
+    text-decoration: underline;
+}
+
+/* Download */
+.ab-nav .download{
+    height: 40px;
+    border-radius: 25px;
+    position: absolute;
+    bottom: 35px;
+    color: white;
+    background-color: rgb(0, 94, 255);
+    display: flex;
+    align-items: center;
+    width:  200px;
+    margin: 0 16%;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.download b{
+    width: 80%;
+    text-align: center;
+}
+@media (max-width:600px){
+    .left-nav h2{
+        font-size: 22px;
+    }
+
+    .midle-nav{
+        display: none;
+    }
+    .right-nav .hamburger{
+        display: block;
+    }
+}
+
+@media  screen and (min-width:1000px) {
+    .nav{
+        width: 70%;
+        padding: 20px 15%;
+    }
+}

@@ -1,0 +1,185 @@
+.footer{
+    margin-top:50px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .text{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 30%;
+    padding: 0 15px;
+
+}
+
+.text h1{
+    font-family: "Seymour One",sans-serif;
+    font-size: 1.3rem;
+}
+
+.text .button{
+    background:linear-gradient(150deg,rgb(119, 45, 255), rgb(38, 0, 255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 300px;
+    cursor: pointer;
+    color: white;
+    border-radius:20px ;
+
+}
+
+.button .download-icon{
+    height: 20px;
+}
+
+/* Footer Discord Image */
+.footer .image{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: -3px;
+}
+
+.image img{
+    width: 100%;
+}
+
+
+/* footer section  */
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    border-top: 4px solid rgba(212, 127, 255, 0.5);
+    gap: 20px;
+    padding: 25px ;
+    padding-top:40px ;
+    justify-content: center;
+    background: linear-gradient(135deg,rgba(255,255,255,.3),rgba(255,255,255,.05)),linear-gradient(261deg,#2e1a8e,#0e0e5c);
+}
+
+/* Social icons  */
+.footer-section .social{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 10px 0;
+    justify-content: start;
+    gap:15px;
+
+}
+
+.social .language{
+    display: flex;
+    gap: 10px;
+}
+
+.language .flag{
+    height: 24px;
+}
+
+.language p{
+    font-size: 15px;
+}
+
+.social .icons{
+    display: flex;
+    gap: 1rem;
+}
+
+.icons img{
+    width: 1.6rem;
+}
+
+
+/*  Link Tree */
+.footer .link-tree{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    gap: 35px;
+}
+
+.link-tree .tree{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    list-style: none;
+    justify-content: start;
+    width: 10rem;
+
+}
+
+.tree p{
+    margin-bottom: 3px;
+    font-size:18px;
+}
+
+.tree li{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* horizontal line */
+
+.footer hr{
+    color: rgb(232, 232, 232);
+}
+
+/* Final touch */
+.footer .footer-final{
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 100px;
+    margin-bottom: 30px;
+}
+
+.footer-final img{
+    width: 125px;
+    color: white;
+}
+
+.footer-final button{
+    all: unset;
+    background-color: rgb(97, 35, 255);
+    padding: 13px ;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;color: white;
+    border-radius: 20px;
+}
+
+
+@media screen and (min-width:1000px) {
+
+    .footer{
+        margin-top: 200px;
+    }
+
+    .footer .text{
+        max-width: 700px;
+        margin: 0 auto;
+        gap: 60px;
+        margin-bottom: 200px;
+    }
+     .text h1{
+        font-size: 40px;
+    }
+
+    .text .download-icon{
+        justify-content: center;
+        align-items: center;
+        padding: 10px ;
+    }
+
+}

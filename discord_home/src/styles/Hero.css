@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Seymour+One&display=swap');
+
+.Hero{
+    padding-top: 8rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* togle */
+.togle{
+    display: flex;
+    flex-wrap:wrap-reverse;
+    max-width: 1400px;
+    gap:60px;
+}
+
+.Hero h1{
+    font-size: 1.4em;
+    font-family:"Seymour One", sans-serif;
+    font-weight:400;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.info p{
+    line-height: 30px;
+    width: 300px;
+}
+
+.Hero .button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width:800px;
+    gap: 40px;
+    margin: 60px auto;
+}
+
+.Hero .download:hover{
+    box-shadow: 1px 10px 10px  rgb(255, 255, 255,0.3);
+}
+.Hero .download{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    width: 300px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+
+.button p{
+    width: 80%;
+    font-size: 16px;
+}
+
+.button .download-icon{
+    height: 20px;
+}
+
+@media (max-width:600px){
+
+.Hero img{
+    width: 100%;
+}
+}
+
+@media screen and (min-width:1000px){
+    .togle .image img{
+        width:100% ;
+    }
+
+    .togle .image{
+        width:600px ;
+    }
+
+
+    .togle{
+        max-width: 1400px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+
+    .info{
+        justify-content: center;
+        align-items: center;
+        width: 450px;
+        padding: unset;
+        margin: unset;
+        text-align: unset;
+    }
+
+    .info h1{
+        font-size:35px ;
+    }
+    .info p{
+        text-align: unset;
+        width: unset;
+        font-size: 21px;
+    }
+
+    .Hero .button{
+        margin-top: 10%;
+    }
+}
