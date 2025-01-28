@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-![Screenshot 2025-01-28 at 20-33-01 React App](https://github.com/user-attachments/assets/15c264b3-d9c5-4ec5-8408-b22419e1f171)y
+![Screenshot 2025-01-28 at 20-33-01 React App](https://github.com/user-attachments/assets/15c264b3-d9c5-4ec5-8408-b22419e1f171)
 
 Hey this is a Clone of Discord Home page created using ReactJS 
 
